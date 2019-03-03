@@ -37,7 +37,7 @@ class formAdminCtypesDataset extends cmsForm {
                     )),
                     new fieldHtml('description', array(
                         'title' => LANG_DESCRIPTION,
-                        'options' => array('editor' => cmsConfig::get('default_editor'))
+                        'options' => array('editor' => cmsConfig::get('default_admin_editor'))
                     )),
                     new fieldNumber('max_count', array(
                         'title' => LANG_LIST_LIMIT,
